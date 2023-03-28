@@ -33,3 +33,17 @@ grid-column:2/3;
 grid-row:2/4;
 align-content:space-between;
 }
+
+article{
+grid-column:5/11;
+grid-row:3/4;
+}
+
+h3{
+font-size: 20px;
+}
+
+p{
+font-family:fantasy;
+font-size:15px;
+}
