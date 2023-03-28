@@ -35,7 +35,9 @@ overflox:auto;
 display:block;
 color:black;
 padding:10px;
-border:5px white;
+text-decoration:none;
+flex-wrap:wrap;
+border:5px solid white;
 }
 
 .box{
