@@ -1,11 +1,79 @@
 <html>
   <link rel="stylesheet" type="text/css" href="./styles.css" />
 <head>
-
-</head>
-<body>
-  <section class="title">
-<h1>Kyles WebPage</h1>
+<meta charset="UTD-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Kyles web page</title>
+  <style>
+    *{margin:0; padding:0; box-sizing:border-box;}
+    
+    .body{
+    display:grid;
+      grid-template-columns:repeat(12,1fr);
+    grid-template-rows:25% auto auto auto;
+    width:100vw;
+    height:100vh;
+    margin:20px;
+    }
+    
+    header{
+    grid-column:1/13;
+    grid-row:1/2;
+    }
+    
+    .sec{
+    grid-column:5/6;
+    grid-row:2/3;
+    font-size:35px;
+    }
+    
+    .sidebar{
+    margin:0;
+    padding:0;
+    width:200px;
+    background-color: #e7e0e0;
+    
+    height:32%;
+    overflow:auto;
+    }
+    
+    .sidebar a{
+    display:block;
+    color:black;
+    padding:16px;
+    text-decoration:none;
+    flex-wrap:wrap;
+    border:5px solid white;
+    }
+    
+    .sidebar{
+    grid-column:2/3;
+    grid-row:2/4;
+    align-content:space-between;}
+    
+    article{
+    grid-column:5/11;
+    grid-row:3/4;
+    }
+    
+    h3.New{
+    font-size:35px;
+    }
+    
+    p{
+    font-family:"Times Neq Roman", "Times", serif;
+    font-size:2em;
+    }
+  </style>
+  </head>
+<body class="body">
+  <header>
+  </header>
+  
+  <section class="Sec">
+    <h1>IXD Project 2023</h1>
 <h2>Author: Kyle Donovan</h2>
 <h2>c00287252@itcarlow.ie</h2>
   </section>
